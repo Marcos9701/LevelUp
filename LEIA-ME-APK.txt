@@ -1,0 +1,14 @@
+LEVELUP — VERSÃO INDIVIDUAL, SEM CADASTRO
+
+O aplicativo abre diretamente, sem login, cadastro ou Supabase. Missões, XP, ofensiva, perfil, conquistas e desafios ficam salvos localmente no aparelho.
+
+GERAR APK (Windows / PowerShell):
+1. Extraia o ZIP e abra a pasta LevelUp_Offline no VS Code.
+2. Execute: npm install
+3. Execute: eas login (se ainda não estiver conectado)
+4. Se o EAS reclamar do Git, execute: $env:EAS_NO_VCS="1"
+5. Execute: eas build -p android --profile preview
+
+A compilação ocorre na nuvem. Ao terminar, o Expo fornece um link para baixar o APK.
+
+Requisito: Node.js 22 ou superior.
